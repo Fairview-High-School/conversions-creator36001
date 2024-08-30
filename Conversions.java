@@ -72,24 +72,40 @@ public class Conversions
             System.out.println("Enter Millileters: ");
             double Millileters = keyboard.nextDouble();
             keyboard.nextLine();
-            double Ounces = Millileters * 0.033814;// add the code to ask the user to enter Ounces and then convert to Millileters
+            double Ounces = Millileters * 0.033814;
             System.out.println(Millileters + " Millileters is " + Ounces + " Ounces");   //add the code to ask the user to enter Millileters and then convert to Ounces
         }
         if (selection == 7)
         {
-            //add the code to ask the user to enter Miles and then convert to Kilometers
+            System.out.println("Enter Miles: ");
+            double Miles = keyboard.nextDouble();
+            keyboard.nextLine();
+            double kilometer = Miles * 1.60934;
+            System.out.println(Miles + " Miles is " + kilometer + " Kilometers"); //add the code to ask the user to enter Miles and then convert to Kilometers
         }
         if (selection == 8)
         {
-            //add the code to ask the user to enter Kilometers and then convert to Miles
+            System.out.println("Enter Kilometers: ");
+            double Kilometers = keyboard.nextDouble();
+            keyboard.nextLine();
+            double Miles = Kilometers * 0.6213717;
+            System.out.println(Kilometers + " Kilometers is " + Miles + " Miles");  //add the code to ask the user to enter Kilometers and then convert to Miles
         }
         if (selection == 9)
         {
-            //add the code to ask the user to enter Gallons and then convert to Liters
+            System.out.println("Enter Gallons: ");
+            double Gallons = keyboard.nextDouble();
+            keyboard.nextLine();
+            double Liters = Gallons * 3.78541;
+            System.out.println(Gallons + " Gallons is " + Liters + " Liters");   //add the code to ask the user to enter Gallons and then convert to Liters
         }
         if (selection == 10)
         {
-            //add the code to ask the user to enter Liters and then convert to Gallons
+            System.out.println("Enter Liters: ");
+            double Liters = keyboard.nextDouble();
+            keyboard.nextLine();
+            double Gallons = Liters * 0.264172;
+            System.out.println(Liters + " Liters is " + Gallons + " Gallons");    //add the code to ask the user to enter Liters and then convert to Gallons
         }
     }
 }
